@@ -1,0 +1,11 @@
+SINC = ../sInclude/
+SSRC = ../sSrc/
+INC = ./include/
+SRC = ./src/
+BIN = ./bin/
+
+msgStart: 
+	@echo ""; echo "Building..."; echo ""
+
+msgEnd: 
+	@echo ""; echo "Building terminated: find executables in ./bin."
